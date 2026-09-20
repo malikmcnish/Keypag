@@ -44,14 +44,18 @@ a{
 }
 
 a:hover{
-    color: rgb(13, 146, 53);
+    color: rgb(108, 249, 151);
     text-decoration: underline;
     text-underline-offset: .5rem;
     text-decoration-color: rgb(129, 26, 66);
 }
 
-logo{
+.logo{
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(13, 146, 53);
+    color: rgb(224, 173, 20)
+}
+
+.logo:hover{
+    cursor: default;
 }
