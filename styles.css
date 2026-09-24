@@ -193,7 +193,7 @@ font-weight: 600;
     text-align: center;
 }
 
-.section__text__p1{
+.section__text__p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -203,4 +203,63 @@ font-weight: 600;
     text-align: center;
 }
 
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* .btn:hover{
+    background-color: rgb(108, 249, 151);
+    color: white;
+} */
+
+.btn-color-1, .btn-color-2{
+    border: 2px solid rgb(108, 249, 151);
+}
+
+.btn-color-1:hover, .btn-color-2:hover{
+    cursor: pointer;
+}
+
+.btn-color-1, .btn-color-2:hover{
+    background: rgb(39, 30, 108);
+    color: white;
+}
+
+.btn-color-1:hover{
+    background: rgb(21, 20, 22);
+    color: white;
+}
+
+.btn-color-2{
+    background: none;
+}
+
+.btn-color-2:hover{
+    border: 2px solid rgb(82, 24, 24);
+}
+
+/* .btn-container{
+    gap: 2rem;
+} */
 
